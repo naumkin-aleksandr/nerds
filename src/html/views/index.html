@@ -1,9 +1,85 @@
 <% var data = {
-  title: "Заголовок | Проект",
+  title: "nerds",
   author: "Harrix"
 }; %>
 <%= _.template(require('./../includes/header.html').default)(data) %>
 
-<div class="container">Первая страница.</div>
+<section class="benefit">
+    <div class="benefit__wrapper">
+        <div class="benefit__wrapper-btn">
+            <button class="benefit__btn"></button> 
+            <button class="benefit__btn"></button> 
+            <button class="benefit__btn"></button> 
+        </div>
+        <!-- /.benefit__wrapper-btn -->
+        <div class="benefit__box">
+            <h2 class="benefit__title">Долго, дорого, скрупулезно.</h2>
+            <p class="benefit__text">Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
+            <a class="benefit__link" href="#">Узнать больше</a>
+        </div>
+        <!-- /.benefit__box -->
+        <div class="benefit__box">
+            <h2 class="benefit__title">Любим математику как никто другой</h2>
+            <p class="benefit__text">Никакого креатива, только матемамические формулы для расчета идеальных пропорций.</p>
+            <a class="benefit__link" href="#">Узнать больше</a>
+        </div>
+        <!-- /.benefit__box -->
+        <div class="benefit__box">
+            <h2 class="benefit__title">только ночь, только хардкор</h2>
+            <p class="benefit__text">Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается.</p>
+            <a class="benefit__link" href="#">Узнать больше</a>
+        </div>
+        <!-- /.benefit__box -->
+    </div>
+    <!-- /.benefit__wrapper -->
+</section>
+<!-- /.benefit -->
+
+<section class="product">
+    <div class="product__box">
+        <img class="product__img" src="" alt="">
+        <h3 class="product__title">Веб-сайты</h3>
+        <p class="product__text">Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+        <a class="product__link" href="#">Заказать</a>
+    </div>
+    <!-- /.product__box -->
+    <div class="product__box">
+        <img class="product__img" src="" alt="">
+        <h3 class="product__title">Приложения</h3>
+        <p class="product__text">Покорите топ-10 приложений в AppStore и Google Play</p>
+        <a class="product__link" href="#">Заказать</a>
+    </div>
+    <!-- /.product__box -->
+    <div class="product__box">
+        <img class="product__img" src="" alt="">
+        <h3 class="product__title">Презентации</h3>
+        <p class="product__text">Вы даже не подозреваете, насколько вы изумительны!</p>
+        <a class="product__link" href="#">Заказать</a>
+    </div>
+    <!-- /.product__box -->
+</section>
+<!-- /.product -->
+
+<section class="information">
+    <div class="information__box">
+        <h2 class="information__title">Мы маленькая, но гордая дизайн-студия из Краснодара.</h2>
+        <p class="information__text">Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива.
+            Раиотаем не покладая рук, как работы.
+        </p>
+        <p class="information__text_bold">Выполняем заказы на разработку:</p>
+        <ul class="information__list">
+            <li class="information__item">Веб-сайтов любой сложности</li>
+            <li class="information__item">Мобильных приложений для IOS и Android</li>
+            <li class="information__item">Слайд-шоу и видео для корпоративных презентаций</li>
+        </ul>
+    </div>
+    <!-- /.information__box -->
+    <div class="information__box">
+        <p class="information__text_bold"></p>
+        
+    </div>
+    <!-- /.information__box -->
+</section>
+<!-- /.information -->
 
 <%= _.template(require('./../includes/footer.html').default)(data) %>
