@@ -5,10 +5,30 @@
    			<h2 class="contacts__title">NЁRDS DESIGN STUDIO</h2>
    			<p class="contacts__text">191186, Санкт-Петербург, ул Б. Конюшенная, д. 19/8</p>
    			<p class="contacts__text">тел.+7(812)275-75-75</p>
-   			<button class="contacts__btn">Напишиту нам</button>
+   			<button class="contacts__btn">Напишите нам</button>
    		</div>
-   	</div>
-   	<!--/map__wrapper-->
+   	</div> <!--/map__wrapper-->
+	   
+	   
+   <div class="feedback"> 
+	<h2 class="feedback__title"></h2>
+	<button class="feedback__btn-close"></button>
+	<form class="feedback__form" action="#">
+		 <div class="feedback__wrap">
+			 <div class="feedback__box">
+				 <label class="feedback__label" for="feedback-name">Ваше имя:</label>
+				 <input class="feedback__input" id="feedback-name" type="text" placeholder="Представьтесь, пожалуйст">
+			 </div>
+			 <div class="feedback__box">
+				 <label class="feedback__label" for="feedback-email">Ваш e-mail:</label>
+				 <input class="feedback__input" id="feedback-email" type="email" placeholder="Для отправки ответа">
+			 </div>
+		 </div> <!--/feedback__wrap-->
+		 <label class="feedback__label" for="feedback-textarea">Текст письма:</label>
+		 <textarea class="feedback__textarea" id="feedback-textarea" name="" placeholder="В свободной форме"></textarea>
+		 <button class="feedback__btn" type="submit">Отправить</button>
+	</form>
+</div> <!--/feedback-->
 
    </section>
    <!--/map-->
@@ -28,6 +48,8 @@
 		   </div> <!--/social__box-->
 	   </div>
    </footer>
+
+
 
    <script src="js/bundle.js"></script>
    </body>

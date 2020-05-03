@@ -1,3 +1,11 @@
 // $font-stack: -apple-system, BlinkMacSystemFont, Roboto, "Open Sans", "Helvetica Neue", sans-serif;
 
 // @import "~bootstrap/scss/bootstrap";
+
+// utils
+@import 'utils/reset.scss';
+@import 'utils/fonts.scss';
+
+// parts
+@import 'parts/common-styles.scss';
+@import 'parts/header';
