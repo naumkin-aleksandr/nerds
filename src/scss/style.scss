@@ -5,7 +5,14 @@
 // utils
 @import 'utils/reset.scss';
 @import 'utils/fonts.scss';
+@import 'utils/vars.scss'; 
+
 
 // parts
+@import 'parts/header.scss';
+@import 'parts/benefit.scss';
+@import 'parts/skills.scss';
+
+
 @import 'parts/common-styles.scss';
-@import 'parts/header';
+

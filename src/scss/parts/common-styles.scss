@@ -1,4 +1,28 @@
 body {
-    font-family: 'Robotl';
-    
+    font-family: 'Roboto';
+}
+
+.none {
+    display: none;
+}
+
+.btn {
+    display: inline-block;
+    line-height: 50px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #fb565a;
+    border-radius: 2px;
+    &:hover {
+        background-color: #e74246;
+        transition: .2s;
+    }
+    &:active{
+        background-color: #d7373b;
+        color: rgba(255, 255, 255, 0.3);
+    }
 }

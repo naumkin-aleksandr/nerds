@@ -15,8 +15,62 @@
 
 }
 
+.logo {
+    &__img {
+        &:active {
+        filter: opacity(30%);
+        }
+    }
+}
+
+
 .nav {
     &__list {
         display: flex;
+    }
+    &__item {
+        margin-right: 45px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+    &__link {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        color: #000;
+        text-transform: uppercase;
+        &:hover {
+            color: #fb565a;
+            transition: .2s;
+        }
+        &:active {
+            color: rgba(0, 0, 0, 0.3);
+
+        }
+    }
+}
+
+.basket {
+    &__icon {
+        width: 20px;
+        height: 20px;
+        margin-right: 20px;
+        fill: #a6a6a6;
+    }
+    &__link {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        color: #000;
+        text-transform: uppercase;
+        &:hover {
+            color: #fb565a;
+            transition: .2s;
+        }
+        &:active {
+            color: rgba(0, 0, 0, 0.3);
+
+        }
     }
 }
