@@ -1,53 +1,85 @@
    <section class="map">
+   	<iframe class="map__iframe"
+   		src="https://yandex.ua/map-widget/v1/?um=constructor%3Acee4773d29629411f59d086c291729495df1f9f4ff9639dc3b67290676690f45&amp;source=constructor"></iframe>
 
    	<div class="map__wrapper">
    		<div class="map__contacts contacts">
    			<h2 class="contacts__title">NЁRDS DESIGN STUDIO</h2>
    			<p class="contacts__text">191186, Санкт-Петербург, ул Б. Конюшенная, д. 19/8</p>
    			<p class="contacts__text">тел.+7(812)275-75-75</p>
-   			<button class="contacts__btn">Напишите нам</button>
+   			<button class="contacts__btn btn">Напишите нам</button>
    		</div>
-   	</div> <!--/map__wrapper-->
-	   
-	   
-   <div class="feedback"> 
-	<h2 class="feedback__title"></h2>
-	<button class="feedback__btn-close"></button>
-	<form class="feedback__form" action="#">
-		 <div class="feedback__wrap">
-			 <div class="feedback__box">
-				 <label class="feedback__label" for="feedback-name">Ваше имя:</label>
-				 <input class="feedback__input" id="feedback-name" type="text" placeholder="Представьтесь, пожалуйст">
-			 </div>
-			 <div class="feedback__box">
-				 <label class="feedback__label" for="feedback-email">Ваш e-mail:</label>
-				 <input class="feedback__input" id="feedback-email" type="email" placeholder="Для отправки ответа">
-			 </div>
-		 </div> <!--/feedback__wrap-->
-		 <label class="feedback__label" for="feedback-textarea">Текст письма:</label>
-		 <textarea class="feedback__textarea" id="feedback-textarea" name="" placeholder="В свободной форме"></textarea>
-		 <button class="feedback__btn" type="submit">Отправить</button>
-	</form>
-</div> <!--/feedback-->
+   	</div>
+   	<!--/map__wrapper-->
+
+
 
    </section>
    <!--/map-->
 
    <footer class="footer">
-	   <div class="footer__wrapper">
-		   <div class="social">
-			   <ul class="social__link">
-				   <li class="social__item"><a class="social__link" href="#"></a></li>
-				   <li class="social__item"><a class="social__link" href="#"></a></li>
-				   <li class="social__item"><a class="social__link" href="#"></a></li>
-			   </ul>
-		   </div> <!-- /social-->
-		   <div class="social__box">
-			   <h1 class="footer__title">Давайте дружить, это выгодно!</h1>
-			   <p class="footer__text">Скидка 10% для друзей из социальных сетей.</p>
-		   </div> <!--/social__box-->
-	   </div>
+   	<div class="footer__wrapper">
+		   
+   		<div class="social">
+   			<ul class="social__list">
+   				<li class="social__item">
+   					<a class="social__link" href="#">
+   						<svg class="social__icon">
+   							<use href='#icon-vk'></use>
+   						</svg>
+   					</a>
+   				</li>
+   				<li class="social__item">
+   					<a class="social__link" href="#">
+   						<svg class="social__icon">
+   							<use href='#icon-facebook'></use>
+   						</svg>
+   					</a>
+   				</li>
+   				<li class="social__item">
+   					<a class="social__link" href="#">
+   						<svg class="social__icon">
+   							<use href='#icon-instagram'></use>
+   						</svg>
+   					</a>
+   				</li>
+   			</ul>
+   		</div> <!-- /social-->
+
+   		<div class="footer__box">
+   			<h1 class="footer__title">Давайте дружить, это выгодно!</h1>
+   			<p class="footer__text">Скидка 10% для друзей из социальных сетей.</p>
+   		</div>
+   		<!--/footer__box-->
+   	</div>
    </footer>
+
+
+   <div class="relation">
+   	<h2 class="relation__title">Напишите нам</h2>
+   	<button class="relation__btn-close"></button>
+   	<form class="relation__form" action="#">
+   		<div class="relation__wrap">
+   			<div class="relation__box">
+   				<label class="relation__label" for="relation-name">Ваше имя:</label>
+   				<input class="relation__input" id="relation-name" type="text" placeholder="Представьтесь, пожалуйст">
+   			</div>
+   			<div class="relation__box">
+   				<label class="relation__label" for="relation-email">Ваш e-mail:</label>
+   				<input class="relation__input" id="relation-email" type="email" placeholder="Для отправки ответа">
+   			</div>
+   		</div>
+   		<!--/relation__wrap-->
+   		<div class="relation__box">
+   			<label class="relation__label" for="relation-textarea">Текст письма:</label>
+   			<textarea class="relation__textarea" id="relation-textarea" name="message"
+   				placeholder="В свободной форме"></textarea>
+   		</div>
+   		<button class="relation__btn btn" type="submit">Отправить</button>
+   	</form>
+   </div>
+   <!--/relation-->
+
 
 
 

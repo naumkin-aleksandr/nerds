@@ -1,0 +1,35 @@
+.social {
+    &__list {
+        display: flex;
+    }
+    &__item {
+        margin-right: 10px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+    &__link {
+        width: 78px;
+        height: 78px;
+        background-color: #e1e1e1;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &:hover {
+            background-color: #e74246;
+            transition: .2s;
+        }
+        &:active {
+            background-color: #d7373b;
+        }
+        &:active .social__icon {
+            opacity: .3;
+        }
+    }
+    &__icon {
+        width: 25px;
+        height: 25px;
+        fill: #fff;
+    }
+}

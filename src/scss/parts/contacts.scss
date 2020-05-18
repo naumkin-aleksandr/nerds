@@ -1,0 +1,22 @@
+.contacts {
+    width: 318px;
+    padding: 50px;
+    background-color: #fff;
+    &__title {
+        margin-bottom: 30px; 
+        font-weight: 700;
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+    &__text {
+        margin-bottom: 15px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+        color: #666666;
+    }
+    &__btn {
+        margin-top: 15px;
+        width: 219px;
+    }
+}

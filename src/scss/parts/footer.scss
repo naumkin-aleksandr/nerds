@@ -1,0 +1,22 @@
+.footer {
+  &__wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 70px 20px;
+    display: flex;
+  }
+  &__box {
+      margin-left: 140px;
+  }
+  &__title {
+      margin-bottom: 10px;
+      font-weight: 700;
+      font-size: 36px;
+  }
+  &__text {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 22px;
+      color: #444;
+  }
+}
