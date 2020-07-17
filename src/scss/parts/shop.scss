@@ -1,0 +1,25 @@
+.shop {
+    &__wrap-title {
+        padding: 93px 0;
+        background-color: #eee;
+    }
+    &__title {
+        width: 1200px;
+        margin: 0 auto;
+        font-weight: 500;
+        font-size: 55px;
+        line-height: 55px;
+        text-align: center;
+    }
+    &__wrapper {
+        width: 1200px;
+        margin: 0 auto;
+        padding: 55px 20px 60px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__form {
+        width: 260px;
+        // margin-right: 140px;
+    }
+}

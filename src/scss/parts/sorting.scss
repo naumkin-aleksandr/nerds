@@ -1,0 +1,50 @@
+.sorting {
+  width: 760px;
+  display: flex;
+  justify-content: space-between;
+  &__title {
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  &__box {
+    display: flex;
+    white-space: pre;
+  }
+  &__btn {
+    margin-right: 30px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    &:not(.sorting__btn_selected) {
+      &:hover {
+        color: rgba(0, 0, 0, 0.6);
+        transition: 0.2s;
+      }
+      &:active {
+        color: #000;
+      }
+    }
+   
+    &_selected {
+      color: #000;
+    }
+    &-arrow {
+      margin-left: 20px;
+      background-color: transparent;
+      color: rgba(0, 0, 0, 0.2);
+      cursor: pointer;
+      &:hover {
+        color: rgba(0, 0, 0, 0.6);
+        transition: 0.2s;
+      }
+      &_selected {
+        color: #000;
+      }
+    }
+  }
+}

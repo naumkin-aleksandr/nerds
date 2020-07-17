@@ -7,11 +7,37 @@
    			<h2 class="contacts__title">NЁRDS DESIGN STUDIO</h2>
    			<p class="contacts__text">191186, Санкт-Петербург, ул Б. Конюшенная, д. 19/8</p>
    			<p class="contacts__text">тел.+7(812)275-75-75</p>
-   			<button class="contacts__btn btn">Напишите нам</button>
+   			<button class="contacts__btn btn" id="contacts__btn">Напишите нам</button>
    		</div>
    	</div>
    	<!--/map__wrapper-->
 
+   	<div class="relation none" id="relation">
+   		<h2 class="relation__title">Напишите нам</h2>
+   		<button class="relation__btn-close" id="relation__btn-close"></button>
+   		<form class="relation__form" action="#">
+   			<div class="relation__wrap">
+   				<div class="relation__box">
+   					<label class="relation__label" for="relation-name">Ваше имя:</label>
+   					<input class="relation__input" id="relation-name" type="text"
+   						placeholder="Представьтесь, пожалуйст">
+   				</div>
+   				<div class="relation__box">
+   					<label class="relation__label" for="relation-email">Ваш e-mail:</label>
+   					<input class="relation__input" id="relation-email" type="email"
+   						placeholder="Для отправки ответа">
+   				</div>
+   			</div>
+   			<!--/relation__wrap-->
+   			<div class="relation__box">
+   				<label class="relation__label" for="relation-textarea">Текст письма:</label>
+   				<textarea class="relation__textarea" id="relation-textarea" name="message"
+   					placeholder="В свободной форме"></textarea>
+   			</div>
+   			<button class="relation__btn btn" type="submit">Отправить</button>
+   		</form>
+   	</div>
+   	<!--/relation-->
 
 
    </section>
@@ -19,7 +45,7 @@
 
    <footer class="footer">
    	<div class="footer__wrapper">
-		   
+
    		<div class="social">
    			<ul class="social__list">
    				<li class="social__item">
@@ -55,30 +81,7 @@
    </footer>
 
 
-   <div class="relation">
-   	<h2 class="relation__title">Напишите нам</h2>
-   	<button class="relation__btn-close"></button>
-   	<form class="relation__form" action="#">
-   		<div class="relation__wrap">
-   			<div class="relation__box">
-   				<label class="relation__label" for="relation-name">Ваше имя:</label>
-   				<input class="relation__input" id="relation-name" type="text" placeholder="Представьтесь, пожалуйст">
-   			</div>
-   			<div class="relation__box">
-   				<label class="relation__label" for="relation-email">Ваш e-mail:</label>
-   				<input class="relation__input" id="relation-email" type="email" placeholder="Для отправки ответа">
-   			</div>
-   		</div>
-   		<!--/relation__wrap-->
-   		<div class="relation__box">
-   			<label class="relation__label" for="relation-textarea">Текст письма:</label>
-   			<textarea class="relation__textarea" id="relation-textarea" name="message"
-   				placeholder="В свободной форме"></textarea>
-   		</div>
-   		<button class="relation__btn btn" type="submit">Отправить</button>
-   	</form>
-   </div>
-   <!--/relation-->
+
 
 
 

@@ -1,6 +1,5 @@
 .map {
-    padding-top: 80px;
-  
+  position: relative;
   &__iframe {
     width: 100%;
     min-width: 1200px;
@@ -8,14 +7,13 @@
   }
 
   &__wrapper {
-    width: 1200px; 
+    width: 1200px;
     margin: 0 auto;
     position: relative;
   }
   &__contacts {
-      position: absolute;
-      top: -362px;
-      left: 40px;
+    position: absolute;
+    top: -362px;
+    left: 40px;
   }
-
 }

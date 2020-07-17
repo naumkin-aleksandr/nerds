@@ -1,76 +1,84 @@
 .header {
-    background-color: #eeeeee;
+  background-color: #eeeeee;
 
-    &__wrapper {
-        width: 1200px;
-        margin: 0 auto;
-        padding: 49px 20px 0 20px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
+  &__wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 49px 20px 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-    &__nav {
-    }
-
+  &__nav {
+  }
 }
 
 .logo {
-    &__img {
-        &:active {
-        filter: opacity(30%);
-        }
+  &__img {
+    &:active {
+      filter: opacity(30%);
     }
+  }
 }
 
-
 .nav {
-    &__list {
-        display: flex;
+  &__list {
+    display: flex;
+  }
+  &__item {
+    margin-right: 45px;
+    &_selected {
+      position: relative;
+      &::before {
+        content: "";
+        width: 100%;
+        height: 2px;
+        background-color: #fb565a;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+      }
     }
-    &__item {
-        margin-right: 45px;
-        &:last-child {
-            margin-right: 0;
-        }
+    &:last-child {
+      margin-right: 0;
     }
-    &__link {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 30px;
-        color: #000;
-        text-transform: uppercase;
-        &:hover {
-            color: #fb565a;
-            transition: .2s;
-        }
-        &:active {
-            color: rgba(0, 0, 0, 0.3);
-
-        }
+  }
+  &__link {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000;
+    text-transform: uppercase;
+    &:hover {
+      color: #fb565a;
+      transition: 0.2s;
     }
+    &:active {
+      color: rgba(0, 0, 0, 0.3);
+    }
+  }
 }
 
 .basket {
-    &__icon {
-        width: 20px;
-        height: 20px;
-        margin-right: 20px;
-        fill: #a6a6a6;
+  &__icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+    fill: #a6a6a6;
+  }
+  &__link {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000;
+    text-transform: uppercase;
+    &:hover {
+      color: #fb565a;
+      transition: 0.2s;
     }
-    &__link {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 30px;
-        color: #000;
-        text-transform: uppercase;
-        &:hover {
-            color: #fb565a;
-            transition: .2s;
-        }
-        &:active {
-            color: rgba(0, 0, 0, 0.3);
-
-        }
+    &:active {
+      color: rgba(0, 0, 0, 0.3);
     }
+  }
 }
